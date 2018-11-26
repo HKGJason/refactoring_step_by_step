@@ -17,3 +17,9 @@ Refactor method name
 1. Double click method to use IDE refactor function 
 2. Use rename function
 3. Run Test
+
+Refactor return logic
+1. Copy one set of function
+2. Elimate the double return boolean and make the return on the coniditon check
+3. Delete old set function
+4. Run Test
