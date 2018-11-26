@@ -8,7 +8,7 @@ public class PoliceTest {
 
     @Test
     void testcheckDriver() {
-        assertTrue(new Police().checkDriver(new Driver(18)));
-        assertFalse(new Police().checkDriver(new Driver(17)));
+        assertTrue(new Police().checkDriverAgeIsLegal(new Driver(18)));
+        assertFalse(new Police().checkDriverAgeIsLegal(new Driver(17)));
     }
 }

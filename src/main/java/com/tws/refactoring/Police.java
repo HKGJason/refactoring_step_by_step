@@ -1,10 +1,10 @@
 package com.tws.refactoring;
 
 public class Police {
-    private final int lowestAllowedAge = 18;
-    public boolean checkDriver(Driver driver) {
+    private final int lowestLegalAge = 18;
+    public boolean checkDriverAgeIsLegal(Driver driver) {
 
-        if(driver.getAge() >= lowestAllowedAge) return true;
+        if(driver.getAge() >= lowestLegalAge) return true;
         else return false;
     }
 
